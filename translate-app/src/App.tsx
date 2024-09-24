@@ -10,11 +10,11 @@ function App() {
 
 
   return (
-    <>
+    <div className='bg-blue-100'>
       <LanguageInput />
       <LanguageList />
       <LanguageOutput />
-    </>
+    </div>
   )
 }
 
